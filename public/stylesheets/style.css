@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font: "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: #333;
+  color: whitesmoke;
+}
+
+a {
+  color: #bbff00;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+nav {
+  background-color: black;
+}
+
+.navbar {
+  padding: 1.5rem;
+}
+
+.home {
+  min-width: 90vw;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact, .service {
+  min-width: 90vw;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactHead, .serviceHead {
+  min-height: 20vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactItems, .serviceItems {
+  min-height: 70vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.mail, .consultation {
+  min-width: 20%;
+  min-height: 300px;
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.phone, .idea {
+  min-width: 20%;
+  min-height: 300px;
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.liveChat, .third {
+  min-width: 20%;
+  min-height: 300px;
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
